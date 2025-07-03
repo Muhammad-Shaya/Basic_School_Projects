@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cestino</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #000000;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #82f0b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cestino</h1>
+    <div id="inputs">
+        <button id="btnSvuotaCestino">Svuota cestino</button> 
+        <button id="btnEliminaSelezionato">Delete selected</button> 
+    </div>
+    <div id="cestinoContent">
+        <p id="intestazione">Cestino corrente (ricorda di aggiornare):</p>
+        <table id="tableList">
+            <tr>
+                <th>N.</th> 
+                <th>Data</th>
+                <th>Ora</th>
+                <th>Descrizione</th>
+                <th>Sel.</th>
+            </tr>
+        </table>
+    </div>
+    <script src="cestino.js"></script>
+</body>
+</html>

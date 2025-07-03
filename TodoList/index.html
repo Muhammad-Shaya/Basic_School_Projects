@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #000000;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #82f0b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>TodoList - Muhammad Shayan</h1>
+    <div id="inputs">
+        <input type="text" placeholder="Inserisci elemento:" id="edtTesto">
+        <button id="btnGen">Genera</button> 
+        <button id="btnClear">Clear</button> 
+        <button id="btnClearSelected">Clear selected</button> 
+        <button id="btnCestino">Cestino</button> 
+    </div>
+    <div id="list">
+        <p id="intestazione">Tabella corrente:</p>
+        <table id="tableList">
+            <tr>
+                <th>N.</th> 
+                <th>Data</th>
+                <th>Ora</th>
+                <th>Descrizione</th>
+                <th>Sel.</th>
+            </tr>
+        <!-- <tr>
+            <td>1</td>
+            <td>13/03/2024</td>
+            <td>8:40:00</td>
+            <td>Prova</td>
+            <td>
+                <input type="checkbox" id="1">
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>13/03/2024</td>
+            <td>8:45:00</td>
+            <td>Prova 2</td>
+            <td>
+                <input type="checkbox" id="2">
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>13/03/2024</td>
+            <td>8:45:00</td>
+            <td>Prova 2</td>
+            <td>
+                <input type="checkbox" id="2">
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>13/03/2024</td>
+            <td>8:45:00</td>
+            <td>Prova 2</td>
+            <td>
+                <input type="checkbox" id="2">
+            </td>
+        </tr> -->
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body> 
+</html>
