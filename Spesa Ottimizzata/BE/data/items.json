@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Mela Fuji",
+    "price": 0.5,
+    "aisle": 1,
+    "section": "Ortofrutta",
+    "subsection": "Frutta"
+  },
+  {
+    "id": "2",
+    "name": "Banana",
+    "price": 0.3,
+    "aisle": 1,
+    "section": "Ortofrutta",
+    "subsection": "Frutta"
+  },
+  {
+    "id": "3",
+    "name": "Insalata",
+    "price": 1.2,
+    "aisle": 1,
+    "section": "Ortofrutta",
+    "subsection": "Verdura"
+  },
+  {
+    "id": "4",
+    "name": "Pane Casereccio",
+    "price": 1.5,
+    "aisle": 2,
+    "section": "Panetteria",
+    "subsection": "Pane"
+  },
+  {
+    "id": "5",
+    "name": "Pizza Margherita",
+    "price": 2.0,
+    "aisle": 2,
+    "section": "Panetteria",
+    "subsection": "Pizza"
+  },
+  {
+    "id": "6",
+    "name": "Focaccia Genovese",
+    "price": 2.5,
+    "aisle": 2,
+    "section": "Panetteria",
+    "subsection": "Focaccia"
+  },
+  {
+    "id": "7",
+    "name": "Patatine Salate",
+    "price": 1.0,
+    "aisle": 3,
+    "section": "Merenda Confezionata",
+    "subsection": "Snack Salato"
+  },
+  {
+    "id": "8",
+    "name": "Biscotti al Cioccolato",
+    "price": 1.8,
+    "aisle": 3,
+    "section": "Merenda Confezionata",
+    "subsection": "Snack Dolce"
+  },
+  {
+    "id": "9",
+    "name": "Crema Spalmabile",
+    "price": 3.0,
+    "aisle": 3,
+    "section": "Merenda Confezionata",
+    "subsection": "Spalmabile"
+  }
+]
